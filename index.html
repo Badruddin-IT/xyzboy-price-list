@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRICE XYZBOY SERVICE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Style untuk Navbar Slide */
+        .navbar-slide {
+            position: fixed;
+            top: 0;
+            left: -250px; /* Sembunyikan navbar di luar layar */
+            width: 250px;
+            height: 100%;
+            background-color: #112240;
+            color: #a8b2d1;
+            padding-top: 60px; /* Beri ruang untuk tombol toggle */
+            transition: left 0.3s ease;
+            z-index: 1000;
+        }
+
+        .navbar-slide.open {
+            left: 0; /* Tampilkan navbar saat class 'open' ditambahkan */
+        }
+
+        .navbar-slide ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-slide ul li a {
+            display: block;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #a8b2d1;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-slide ul li a:hover {
+            background-color: #1a2d4e;
+            color: #64ffda;
+        }
+
+        .toggle-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: none;
+            border: none;
+            color: #64ffda;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        /* Style untuk konten utama agar tidak tertutup navbar */
+        .content {
+            margin-left: 0; /* Default margin */
+            transition: margin-left 0.3s ease;
+        }
+
+        .content.open {
+            margin-left: 250px; /* Beri ruang saat navbar terbuka */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="toggle-button" onclick="toggleNavbar()">☰</button>
+
+    <div class="navbar-slide" id="navbar">
+        <ul>
+            <li><a href="xyzboy-service-rblx.vercel.app" target="_blank">Home</a></li>
+            <li><a href="#leveling">Leveling</a></li>
+            <li><a href="#paket">Paket Leveling</a></li>
+            <li><a href="#item">Fish & Item</a></li>
+            <li><a href="#money">Sea 2 Money</a></li>
+            <li><a href="#lainnya">Lainnya</a></li>
+            </ul>
+    </div>
+
+    <div class="content" id="main-content">
+        <section class="level-pricing-fisch" id="leveling">
+            <h2>Daftar Harga Leveling Fisch Hunter</h2>
+            <ul class="level-list">
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Level 1 - 100</span>
+                        <span class="level-description">Petualangan awal yang panjang.</span>
+                    </div>
+                    <span class="level-price">50<span class="currency">p</span>/Lvl</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Level 101 - 200</span>
+                        <span class="level-description">Melangkah lebih jauh di lautan luas.</span>
+                    </div>
+                    <span class="level-price">100<span class="currency">p</span>/Lvl</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Level 201 - 300</span>
+                        <span class="level-description">Menjelajahi kedalaman yang menantang.</span>
+                    </div>
+                    <span class="level-price">150<span class="currency">p</span>/Lvl</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Level 301 - 400</span>
+                        <span class="level-description">Menguasai ombak dan badai.</span>
+                    </div>
+                    <span class="level-price">200<span class="currency">p</span>/Lvl</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Level 401 - 500</span>
+                        <span class="level-description">Menjadi legenda di lautan Fisch!</span>
+                    </div>
+                    <span class="level-price">250<span class="currency">p</span>/Lvl</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="paket-leveling-fisch" id="paket">
+            <h2>Harga Dan List Paket Leveling</h2>
+            <ul class="level-list">
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 1 - 100</span>
+                        <span class="level-description">Petualangan awal yang panjang.</span>
+                    </div>
+                    <span class="level-price">Rp 3.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 100 - 150</span>
+                        <span class="level-description">Melanjutkan petualanganmu.</span>
+                    </div>
+                    <span class="level-price">Rp 5.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 150 - 250</span>
+                        <span class="level-description">Semakin dekat ke level tinggi.</span>
+                    </div>
+                    <span class="level-price">Rp 7.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 250 - 350</span>
+                        <span class="level-description">Menggapai kekuatan yang lebih besar.</span>
+                    </div>
+                    <span class="level-price">Rp 9.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 350 - 450</span>
+                        <span class="level-description">Hampir mencapai puncak.</span>
+                    </div>
+                    <span class="level-price">Rp 11.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Paket Leveling 450 - 550</span>
+                        <span class="level-description">Level tertinggi!</span>
+                    </div>
+                    <span class="level-price">Rp 13.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="fisch-item-fish" id="item">
+            <h2>Harga dan List Fish & Item</h2>
+            <ul class="level-list">
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Ancient Megalodon</span>
+                    </div>
+                    <span class="level-price">Rp 1.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">SCYLLA</span>
+                    </div>
+                    <span class="level-price">Rp 1.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">TARTARUGA</span>
+                    </div>
+                    <span class="level-price">Rp 500<span class="currency">p</span></span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Blue Whale</span>
+                    </div>
+                    <span class="level-price">Rp 1.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">SS MOBY</span>
+                    </div>
+                    <span class="level-price">Rp 3.500</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">SEA LEVIATHAN</span>
+                    </div>
+                    <span class="level-price">Rp 1.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">MOON IDOL S2</span>
+                    </div>
+                    <span class="level-price">Rp 1.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Cursed Thread</span>
+                    </div>
+                    <span class="level-price">Rp 1.500</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Enchant Relic (MIN BUY 10)</span>
+                    </div>
+                    <span class="level-price">Rp 50<span class="currency">p</span></span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Exalted Relic</span>
+                    </div>
+                    <span class="level-price">Rp 400</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">Resin</span>
+                    </div>
+                    <span class="level-price">Rp 1.500</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="sea-2-money-fisch" id="money">
+            <h2>Harga dan List Sea 2 Money</h2>
+            <ul class="level-list">
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">250.000 E$</span>
+                    </div>
+                    <span class="level-price">Rp 2.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">500.000 E$</span>
+                    </div>
+                    <span class="level-price">Rp 4.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">1.000.000 E$ (1M)</span>
+                    </div>
+                    <span class="level-price">Rp 6.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="level-item">
+                    <div class="level-info">
+                        <span class="level-name">2.000.000 E$ (2M)</span>
+                    </div>
+                    <span class="level-price">Rp 8.000</span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="other-products-fisch" id="lainnya">
+            <h2>Harga Spesial Lainnya</h2>
+            <ul class="product-list">
+                <li class="product-item">
+                    <span class="product-name">Joki Rod</span>
+                    <span class="product-price"><span class="price">Rp 5.000</span></span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+                <li class="product-item">
+                    <span class="product-name">Joki Cthulhu</span>
+                    <span class="product-price"><span class="price">Rp 2.000</span></span>
+                    <a href="https://discord.gg/fr65CCJKfY" target="_blank" class="buy-button">Beli Sekarang</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        const mainContent = document.getElementById('main-content');
+
+        function toggleNavbar() {
+            navbar.classList.toggle('open');
+            mainContent.classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>

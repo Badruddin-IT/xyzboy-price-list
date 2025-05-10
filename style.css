@@ -1,0 +1,262 @@
+/* Tema Fisch Roblox Indonesia - Biru Hitam */
+
+/* Style untuk Daftar Harga Leveling */
+.level-pricing-fisch {
+  background-color: #0a192f; /* Latar belakang gelap */
+  color: #8892b0; /* Teks abu-abu kebiruan */
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.level-pricing-fisch h2 {
+  color: #ccf381; /* Warna hijau cerah khas Fisch */
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.level-list {
+  list-style: none;
+  padding: 0;
+}
+
+.level-item {
+  background-color: #112240; /* Latar belakang item lebih gelap */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 5px solid #64ffda; /* Aksen biru kehijauan */
+}
+
+.level-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.level-name {
+  font-weight: bold;
+  color: #f0abfc; /* Warna ungu/pink untuk nama level */
+  display: block;
+  margin-bottom: 5px;
+}
+
+.level-description {
+  font-size: 0.9rem;
+  color: #a8b2d1;
+}
+
+.level-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #64ffda; /* Harga dengan aksen biru kehijauan */
+  margin-left: 15px;
+}
+
+.level-price .currency {
+  font-size: 0.8rem;
+  color: #a8b2d1;
+}
+
+.buy-button {
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 15px;
+  text-decoration: none; /* Menghilangkan garis bawah link default */
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #49c6b3;
+}
+
+/* Style untuk Daftar Harga Produk Lain */
+.other-products-fisch {
+  background-color: #112240; /* Latar belakang lebih gelap */
+  color: #a8b2d1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.other-products-fisch h2 {
+  color: #64ffda; /* Aksen biru kehijauan untuk judul */
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  background-color: #0a192f; /* Latar belakang item gelap */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column; /* Mengubah arah flex menjadi kolom */
+  align-items: flex-start; /* Mengatur alignment item ke kiri */
+  border-left: 5px solid #f0abfc; /* Aksen ungu/pink */
+}
+
+.product-name {
+  font-weight: bold;
+  color: #ccf381; /* Warna hijau cerah untuk nama produk */
+  margin-bottom: 10px; /* Memberikan jarak ke list paket */
+}
+
+.product-price {
+  font-size: 1rem;
+  margin-bottom: 10px; /* Memberikan jarak ke list paket atau tombol */
+}
+
+.product-price .price {
+  color: #64ffda; /* Warna harga */
+  font-weight: bold;
+}
+
+.package-level-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px; /* Memberikan indentasi pada list paket */
+}
+
+.package-level-item {
+  color: #a8b2d1;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.package-level-item .price {
+  color: #64ffda;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.small-button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+/* Tema Fisch Roblox Indonesia - Biru Hitam */
+
+.paket-leveling-fisch {
+  background-color: #112240; /* Latar belakang bagian paket */
+  color: #a8b2d1; /* Warna teks */
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.paket-leveling-fisch h2 {
+  color: #64ffda; /* Warna judul paket */
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+/* Menggunakan style yang sama untuk list item dengan daftar leveling utama */
+.paket-leveling-fisch .level-item {
+  background-color: #0a192f; /* Latar belakang item paket */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 5px solid #f0abfc; /* Warna aksen untuk paket */
+}
+
+.paket-leveling-fisch .level-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.paket-leveling-fisch .level-name {
+  font-weight: bold;
+  color: #ccf381; /* Warna nama paket */
+  display: block;
+  margin-bottom: 5px;
+}
+
+.paket-leveling-fisch .level-description {
+  font-size: 0.9rem;
+  color: #a8b2d1;
+}
+
+.paket-leveling-fisch .level-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #64ffda; /* Warna harga paket */
+  margin-left: 15px;
+}
+
+.paket-leveling-fisch .buy-button {
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.paket-leveling-fisch .buy-button:hover {
+  background-color: #49c6b3;
+}
+
+/* Style untuk Fish & Item */
+.fisch-item-fish {
+  background-color: #112240; /* Latar belakang bagian fish & item */
+  color: #a8b2d1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fisch-item-fish h2 {
+  color: #ccf381; /* Warna judul fish & item */
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.fisch-item-fish .level-list .level-item {
+  border-left-color: #ccf381; /* Warna aksen untuk fish & item */
+}
+
+.sea-2-money-fisch {
+  background-color: #112240;
+  color: #a8b2d1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sea-2-money-fisch h2 {
+  color: #64ffda; /* Warna judul Sea 2 Money */
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.sea-2-money-fisch .level-list .level-item {
+  border-left-color: #64ffda; /* Warna aksen untuk Sea 2 Money (sama dengan leveling) */
+}
